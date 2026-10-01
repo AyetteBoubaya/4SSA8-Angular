@@ -1,59 +1,143 @@
-# Projet1Angular
+# Application côté client — Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.24.
+Projet réalisé dans le cadre du module **Application côté client** à **ESPRIT**, en 4ème année du cycle ingénieur informatique.
 
-## Development server
+L'objectif du module est de maîtriser un framework de développement côté client et de concevoir une application web côté client basée sur une architecture de type **Single Page Application (SPA)**.
 
-To start a local development server, run:
+## 🛠️ Technologies utilisées
+
+* **Angular**
+* **TypeScript**
+* **HTML / CSS**
+* **Node.js**
+* **npm**
+
+## 📚 Concepts abordés
+
+Ce projet permet de mettre en pratique les principaux concepts étudiés dans le module :
+
+### Composants
+
+* Structure d'un projet Angular
+* Création et manipulation de composants
+* Architecture orientée composants
+* Composants réutilisables
+* Cycle de vie des composants
+
+### Data Binding & Directives
+
+* Interpolation
+* Property Binding
+* Event Binding
+* Two-way Data Binding
+* Directives structurelles et d'attributs
+* Pipes prédéfinies
+
+### Services & Injection de dépendances
+
+* Création de services
+* Injection de dépendances
+* Partage de données entre composants
+* Utilisation de `Router` et `ActivatedRoute`
+
+### Routing
+
+* Routage statique et dynamique
+* Création de routes et de liens
+* Paramètres de route
+* Navigation entre les différentes vues
+* Lazy Loading
+
+### Formulaires
+
+* Création de formulaires Angular
+* Reactive Forms
+* Validation des formulaires
+* Utilisation de `FormBuilder`
+
+### Communication avec le backend
+
+* Utilisation de `HttpClient`
+* Requêtes HTTP
+* Consommation de Web Services
+* Communication entre l'application Angular et le backend
+
+### Interceptors
+
+* Création d'interceptors HTTP
+* Interception des requêtes
+* Ajout d'un token d'authentification
+* Gestion de l'authentification avec un token JWT
+
+## 📁 Structure du projet
+
+```text
+src/
+├── app/
+│   ├── components/
+│   ├── services/
+│   ├── models/
+│   ├── pages/
+│   ├── app.routes.ts
+│   └── app.component.*
+│
+├── assets/
+├── environments/
+└── main.ts
+```
+
+> La structure peut évoluer selon les besoins du projet et les fonctionnalités développées.
+
+## 🚀 Installation
+
+### Prérequis
+
+Avant de lancer le projet, assurez-vous d'avoir installé :
+
+* Node.js
+* npm
+* Angular CLI
+
+### Installation des dépendances
+
+```bash
+npm install
+```
+
+### Lancer l'application
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Puis ouvrir :
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🎯 Objectifs pédagogiques
 
-```bash
-ng generate --help
-```
+À travers ce projet, les objectifs sont notamment de :
 
-## Building
+* Comprendre l'architecture d'une application frontend.
+* Maîtriser les composants Angular.
+* Implémenter la navigation entre les différentes vues.
+* Utiliser les services et l'injection de dépendances.
+* Structurer une application en composants indépendants et réutilisables.
+* Créer et valider des formulaires réactifs.
+* Consommer des services backend via HTTP.
+* Mettre en place un interceptor pour l'authentification.
 
-To build the project run:
+## 👩‍💻 Auteur
 
-```bash
-ng build
-```
+**Ayette Boubaya**
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Étudiante en 4ème année du cycle ingénieur informatique — **ESPRIT**
 
-## Running unit tests
+## 📖 Références
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* [Angular](https://angular.io)
+* [Node.js](https://nodejs.org/en/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [npm](https://www.npmjs.com/)
